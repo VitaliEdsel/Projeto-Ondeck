@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>Ondeck</title>
+</head>
+
+<body>
+    <div class="central">
+        <nav class="barra-nav">
+            <a href="index.html"><img src="Javascript30 Navbar Starter Files/Assets/Logo.svg" class="logo"></a>
+            <div class="menu" id="menu">
+                <ul class="menuul" id="menuul">
+                    <li class="menuulli" id="menuulli1"><a class="menuullia" id="menuullia1">Produtos</a></li>
+                    <li class="menuulli" id="menuulli2"><a class="menuullia" id="menuullia2">Desafios</a></li>
+                    <li class="menuulli" id="menuulli3"><a class="menuullia" id="menuullia3">Recursos</a></li>
+                    <li class="menuulli" id="menuulli4"><a class="menuullia" id="menuullia4">Outros Links</a>
+                    </li>
+                </ul>
+                <ul class="menuulpa" id="menuulp">
+                    <h2 class="txt-produtos">Produtos</h2>
+                    <button class="botaoflecha" onclick="voltarmenu()" id="botaoflecha">
+                        <img src="Javascript30 Navbar Starter Files/Assets/down_2486595.png" class="flecha">
+                    </button>
+                    <li class="menuullip">
+                        <a class="menuulliap" href="">
+                            <img src="Javascript30 Navbar Starter Files/Assets/Spense_Icon.svg">
+                            <div class="menuulliadivp">
+                                <h3>Spense</h3>
+                                <p>Spense é uma landing page para escritores. Ótimo para praticar Position absolute e layouts Flex.</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="menuullip">
+                        <a class="menuulliap" href="">
+                            <img src="Javascript30 Navbar Starter Files/Assets/Fiber_Icon.svg">
+                            <div class="menuulliadivp">
+                                <h3>Fiber Landing Page</h3>
+                                <p>Um gerador de portifólio online. Ótimo para praticar layouts Flex/grid e Position absolute</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="menuullip">
+                        <a class="menuulliap" href="">
+                            <img src="Javascript30 Navbar Starter Files/Assets/Gradie_Icon.svg">
+                            <div class="menuulliadivp">
+                                <h3>Gradie Sign Up Page</h3>
+                                <p>Gradie é uma página de registro simples. Ótimo para praticar centralização de layouts</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="registro">
+                <a href="" class="registre">Registre-se</a>
+                <button class="teste-menu">Teste Grátis</button>
+            </div>
+            <div class="partemenu" id="partemenu">
+                <button class="btmenu" id="btmenu" onclick="abrirmenu()">
+                    <span class="linha1" id="linha1"></span>
+                    <span class="linha2" id="linha2"></span>
+                    <span class="linha3" id="linha3"></span>
+                </button>
+            </div>
+        </nav>
+
+        <main class="parteprin">
+            <div class="textoprinc">
+                <h1><span class="txt-preto">Ondeck é a sua ferramenta de </span><span class="txt-amar">videoconferência
+                        remota</span></h1>
+                <p class="descp">ondeck é um serviço que permite criar videochamadas lindas, online e criptografadas
+                    para você e sua equipe remota</p>
+                <button class="teste-baixo">Teste Grátis</button>
+                <div class="rating">
+                    <p>Nota 5.0 com base em comentários de:</p>
+                    <div class="notas">
+                        <img src="Javascript30 Navbar Starter Files/Assets/Capterra Logo.svg">
+                        <img src="Javascript30 Navbar Starter Files/Assets/AlternativeTo Logo.svg" class="alternative">
+                        <img src="Javascript30 Navbar Starter Files/Assets/shopify.png" class="icon-shopfy">
+                    </div>
+                </div>
+            </div>
+            <div class="imagemdir">
+                <img src="Javascript30 Navbar Starter Files/Assets/Hero Image.png" class="imgconf">
+            </div>
+        </main>
+
+        <footer>
+            <p>Confiada por +3 milhões de pessoas que trabalham em empresas como</p>
+            <div class="empresas">
+                <img src="Javascript30 Navbar Starter Files/Assets/Netflix Logo.svg">
+                <img src="Javascript30 Navbar Starter Files/Assets/Shopify Logo.svg">
+                <img src="Javascript30 Navbar Starter Files/Assets/Spotify Logo.svg">
+                <img src="Javascript30 Navbar Starter Files/Assets/Walmart Logo.svg">
+            </div>
+        </footer>
+    </div>
+
+</body>
+<script src="main.js"></script>
+
+</html>
