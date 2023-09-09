@@ -38,6 +38,7 @@ body {
 .menuullia {
     color: #2b2a2a;
     font-weight: 400;
+    cursor: pointer;
 }
 
 .registro {
@@ -311,7 +312,7 @@ footer p {
         flex-direction: column;
         background-color: white;
         position: absolute;
-        max-width: 100px;
+        transform: translateY(10px);
     }
 
     .menuulliadivp h3 {
@@ -326,6 +327,18 @@ footer p {
     .txt-produtos {
         margin: 15px 0 15px 15px;
     }
+
+    .balao {
+        display: block;
+        background-color: white;
+        width: 12px;
+        height: 12px;
+        position: absolute;
+        top: -6px;
+        left: 50px;
+        transform: rotate(45deg);
+    }
+
 }
 
 .menud {
@@ -460,3 +473,4 @@ footer p {
     justify-content: space-between;
     background-color: transparent;
 }
+
