@@ -253,7 +253,7 @@ footer p {
     
     .menuulp {
         display: block;
-        border-radius: 0 0 15px 15px;
+        
     }
     
     .menuulliap {
@@ -311,7 +311,20 @@ footer p {
         flex-direction: column;
         background-color: white;
         position: absolute;
-        max-width: 500px;
+        max-width: 100px;
+    }
+
+    .menuulliadivp h3 {
+        color: black;
+        font-size: 16px;
+    }
+    
+    .menuulliadivp p {
+        color: rgb(82, 81, 81);
+    }
+
+    .txt-produtos {
+        margin: 15px 0 15px 15px;
     }
 }
 
@@ -323,7 +336,7 @@ footer p {
     background-color: white;
     width: calc(100% - 20px);
     max-width: 100%;
-    border-radius: 15px 15px 0 0 ;
+    border-radius: 15px;
     z-index: 1;
     padding-top: 80px;
     margin-top: 10px;
@@ -401,12 +414,8 @@ footer p {
     display: none;
 }
 
-
-
 .txt-produtos {
-    position: fixed;
-    top: 42px;
-    left: 60px;
+    
     color: rgb(82, 81, 81);
     font-size: 16px;
 }
@@ -420,7 +429,8 @@ footer p {
     display: flex;
     flex-direction: column;
     background-color: white;
-    max-width: 500px;
+    max-width: 450px;
+    border-radius: 15px;
 }
 
 .menuulliap {
