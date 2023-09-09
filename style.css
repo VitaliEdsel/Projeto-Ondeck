@@ -254,7 +254,6 @@ footer p {
     
     .menuulp {
         display: block;
-        
     }
     
     .menuulliap {
@@ -458,6 +457,7 @@ footer p {
     display: flex;
     flex-direction: column;
     background-color: white;
+    margin: auto;
     max-width: 450px;
     border-radius: 15px;
 }
