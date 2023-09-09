@@ -325,7 +325,7 @@ footer p {
     }
 
     .txt-produtos {
-        margin: 15px 0 15px 15px;
+        display: none;
     }
 
     .balao {
@@ -337,6 +337,16 @@ footer p {
         top: -6px;
         left: 50px;
         transform: rotate(45deg);
+    }
+
+    .menuulliap {
+        display: flex;
+        align-items:flex-start;
+        margin: 0px 15px 15px 15px;
+    }
+
+    .espaco {
+        margin: 40px 20px 30px 20px;
     }
 
 }
@@ -446,11 +456,7 @@ footer p {
     border-radius: 15px;
 }
 
-.menuulliap {
-    display: flex;
-    align-items:flex-start;
-    margin: 0 15px 15px 15px;
-}
+
 
 .menuulliadivp {
     margin-left: 10px;
