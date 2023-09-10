@@ -17,7 +17,35 @@ var menuullia4 = document.getElementById('menuullia4');
 var partemenu = document.getElementById('partemenu');
 var menuulp = document.getElementById('menuulp')
 
-menuullia1.addEventListener('click', produtos)
+let contador;
+
+if (window.innerWidth <= 850) {
+    menuullia1.addEventListener('click', produtos)
+}
+
+else if (window.innerWidth > 850) {
+    //mouseover dos produtos - início
+    menuullia1.addEventListener('mouseover', produtos);
+    menuullia1.addEventListener('mouseout', function(){
+        contador = setTimeout(() => {
+            produtos()
+        }, 500);
+    });
+
+    menuulp.addEventListener('mouseover', function(){
+        console.log("contador zerado");
+        clearTimeout(contador)
+    })
+
+    menuulp.addEventListener('mouseout', function(){
+        contador = setTimeout(() => {
+            produtos()
+        }, 500);
+    });
+
+    //mouseover dos produtos - fim
+}
+
 
 function abrirmenu() {
 
@@ -40,7 +68,8 @@ function abrirmenu() {
 }
 
 function produtos() {
-    menuulp.classList.toggle('menuulp')
+    console.log('abriu o menu');
+    menuulp.classList.toggle('menuulp');
     if (window.innerWidth <= 850) {
         menuul.classList.toggle('menuult')
     }
